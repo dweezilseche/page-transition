@@ -1,0 +1,30 @@
+.transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.transition-column-wrapper {
+  flex: 1;
+  display: flex;
+}
+
+.transition-column-wrapper .block {
+  transform-origin: left;
+}
+
+
+
+.block {
+  flex: 1;
+  background-color: #746df8;
+  transform: scaleX(1);
+  will-change: transform;
+  visibility: visible;
+}

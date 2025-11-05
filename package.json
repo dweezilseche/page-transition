@@ -1,0 +1,22 @@
+{
+  "name": "m1-2025-page-transitions",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "dependencies": {
+    "@barba/core": "^2.10.3",
+    "gsap": "^3.13.0",
+    "sass": "^1.93.2"
+  }
+}
