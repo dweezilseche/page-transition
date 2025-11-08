@@ -76,4 +76,5 @@ Proposez des améliorations via des issues ou des pull requests. Pour des modifi
 Choisissez une licence si vous comptez partager publiquement (MIT, Apache, etc.).
 
 ---
+
 Fichier généré automatiquement — adapté au projet présent dans ce répertoire.
